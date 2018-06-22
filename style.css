@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width:  auto;
+}
+
+img:hover {
+  opacity: .8;
+}
+
+.one-fourth {
+  width: 23%;
+  float: left;
+  margin: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  .one-fourth {
+      width: 48%;
+      margin: 1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .one-fourth {
+      width: 98%;
+      margin: 1%;
+  }
+}
